@@ -6,6 +6,6 @@
 <script setup lang="js">
   definePageMeta({
     // We check the auth first, because we can't check if the user is an admin if they are not logged in
-    middleware: ['auth', 'admin']
+    middleware: ['admin']
   });
 </script>
